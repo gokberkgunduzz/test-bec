@@ -1,0 +1,139 @@
+project: {{project}}
+repo: {{repo}}
+
+# Repository Permissions
+public: false
+
+# PR Restrictions
+pr-restrictions:
+  required-all-approvers: false
+  required-all-tasks-complete: true
+  required-approvers: 1
+  required-successful-builds: 0
+  merge-config:
+    default-strategy: no-ff
+    enabled-strategies:
+      - no-ff
+  unapprove-on-update: {{autounapprove}}
+
+branch-restrictions:
+  - branch-id: "refs/heads/master"
+    type: 'pull-request-only'
+    matcher-type: 'BRANCH'
+  - branch-id: "refs/heads/master"
+    type: 'fast-forward-only'
+    matcher-type: 'BRANCH'
+  - branch-id: "refs/heads/master"
+    type: 'no-deletes'
+    matcher-type: 'BRANCH'
+  - branch-id: "release/**"
+    type: 'fast-forward-only'
+    matcher-type: 'PATTERN'
+  - branch-id: "release/**"
+    type: 'pull-request-only'
+    matcher-type: 'PATTERN'
+  - branch-id: "release/**"
+    type: 'no-deletes'
+    matcher-type: 'PATTERN'
+  - branch-id: "refs/heads/release/eos-3.10"
+    type: 'fast-forward-only'
+    matcher-type: 'BRANCH'
+  - branch-id: "refs/heads/release/eos-3.10"
+    type: 'no-deletes'
+    matcher-type: 'BRANCH'
+
+hooks:
+  - key: "com.lb.software.stash.jira.connector.lb-software-stash-jira-connector:lb-software-stash-jira-connector-issue-key-push"
+    enabled: true
+    settings: {
+      "conditionSyntaxSkipRegex": "",
+      "issue.key.escape.character.id": "!",
+      "pushBranchNamingMessage": "",
+      "pushBranchNamingRegEx": "",
+      "pushBranchRegexIssueKeyDisabled": "",
+      "pushCheckIssueKeyNeeded": {{check_issue}},
+      "pushCheckIssueKeyNeededEachCommit": {{check_issue}},
+      "pushCheckIssueKeyRegEx": "",
+      "pushCheckMergeCommitCheckEnabled": true,
+      "pushOnlineBranchCheckEnabled": true,
+      "pushOnlineChangeCheckEnabled": true,
+      "pushSkipMergeChecksKeyWord": "",
+      "pushTextBranchCheckRegEx": "",
+      "pushTextExceptionGroup": "",
+      "pushTextIssueStatusCheckMessage": "",
+      "pushTextIssueStatusCheckRegEx": "",
+      "pushTextJQLQuery": "",
+      "pushTextJQLQueryMessage": "",
+      "pushTextSyntaxCheckMessage": "",
+      "pushTextSyntaxCheckRegEx": "",
+      "searchID": "commitsAndBranches"
+    }
+  - key: "com.lb.software.stash.jira.connector.lb-software-stash-jira-connector:lb-software-stash-jira-connector-issue-key-merge"
+    enabled: true
+    settings: {
+      "conditionSyntaxSkipRegexId": "",
+      "issue.key.escape.character.id": "!",
+      "mergeCheckBranchCheckEnabled": true,
+      "mergeCheckIssueKeyNeeded": true,
+      "mergeCheckIssueKeyRegEx": "",
+      "mergeCheckIssueStatusCheckEnabled": true,
+      "mergeCheckRebaseCheckEnabled": true,
+      "mergeTextBranchCheckRegEx": "master|release/.*",
+      "mergeTextExceptionGroup": "",
+      "mergeTextIssueStatusCheckMessage": "Ticket is not ready for merging!",
+      "mergeTextIssueStatusCheckRegEx": "Ready to merge",
+      "mergeTextJQLQuery": "",
+      "mergeTextJQLQueryMessage": "",
+      "mergeTextSyntaxCheckMessage": "",
+      "mergeTextSyntaxCheckRegEx": "",
+      "searchID": "commitsAndBranches"
+    }
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:requiredApproversMergeHook"
+    enabled: true
+    settings: {
+      "requiredCount": "1"
+    }
+  - key: "com.atlassian.stash.plugin.stash-protect-unmerged-branch-hook:protect-unmerged-branch-hook"
+    enabled: true
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:incomplete-tasks-merge-check"
+    enabled: true
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:verify-committer-hook"
+    enabled: {{check_committer}}
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:needs-work-merge-check"
+    enabled: true
+    settings: {}
+  # TO BE REMOVED #############
+  - key: "com.atlassian.bitbucket.server.bitbucket-build:requiredBuildsMergeCheck"
+    enabled: false
+    settings: {
+      "requiredCount": "1"
+    }
+  - key: "com.englishtown.stash-hook-mirror:mirror-repository-hook"
+    enabled: false
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:all-approvers-merge-check"
+    enabled: false
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-bundled-hooks:force-push-hook"
+    enabled: false
+    settings: {}
+  - key: "com.atlassian.bitbucket.server.bitbucket-gpg:verify-gpg-signature-hook"
+    enabled: false
+    settings: {}
+  - key: "com.nerdwin15.stash-stash-webhook-jenkins:jenkinsPostReceiveHook"
+    enabled: false
+    settings: {
+      "branchOptions": "",
+      "branchOptionsBranches": "",
+      "cloneType": "ssh",
+      "gitRepoUrl": "ssh://git@bb.endian.com:7999/{{project}}/{{repo}}.git",
+      "ignoreCerts": true,
+      "ignoreCommitters": "",
+      "jenkinsBase": "http://jenkins-src.milano.it.endian.com:8080",
+      "omitBranchName": true,
+      "omitHashCode": true,
+      "triggerPollForDeletedBranch": true
+    }

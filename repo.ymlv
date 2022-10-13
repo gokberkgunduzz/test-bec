@@ -1,0 +1,1889 @@
+- project: B-ALSTOM
+  repo: meta-branding-alstom
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ALSTOM
+  repo: src-alstom-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ALSTOM
+  repo: src-alstom-appliance-xpu
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ALSTOM
+  repo: src-alstom-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: meta-branding-cat
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: src-caterpillar-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: src-caterpillar-appliance-tem
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: src-caterpillar-appliance-tpem
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: src-caterpillar-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-CAT
+  repo: src-caterpillar-templates
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: meta-branding-endian
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-bridge
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-edge-112
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-edge-313
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-edge-515
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-edge-x
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-4i-edge-x-software-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-bridge
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-bridge-software-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-150
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-1500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-1500-scb1721
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-only
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-virtual-150
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-virtual-1500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-hotspot-virtual-500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-1000
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-250
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-2500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-250-scb1721
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-500-scb1721
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-macro-plus-scb1910
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mercury-100
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mercury-50
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mercury-50-scb1617a
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mercury-50-wifi-scb1617a
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-10
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-10-wifi
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-25
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-25-scb6901mmc2
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-25-wifi
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-mini-25-wifi-scb6901mmc2
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-one
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-software-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-software-enterprise-10
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-software-enterprise-10-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-software-enterprise-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-switchboard-4i-edge-x
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-switchboard-macro-scb1721
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-switchboard-virtual-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-virtual
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-virtual-10
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-virtual-10-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-appliance-virtual-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDIAN
+  repo: src-endian-artwork-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: meta-branding-community
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-community-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-community-appliance-community
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-community-appliance-community-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-efw-community2enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-efw-upgrade
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-efw-vpn-authentication-community
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EFW
+  repo: src-endian-artwork-community
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDPOINT
+  repo: meta-branding-endpoint
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDPOINT
+  repo: oracle-instant-client
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDPOINT
+  repo: src-endpoint-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDPOINT
+  repo: src-endpoint-appliance-software-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ENDPOINT
+  repo: src-endpoint-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ESAOTE
+  repo: meta-branding-esaote
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ESAOTE
+  repo: src-esaote-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ESAOTE
+  repo: src-esaote-appliance-otsb
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ESAOTE
+  repo: src-esaote-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-EXOR
+  repo: meta-branding-exor
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: meta-branding-nexcom
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-appliance-ifa-1610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-appliance-ifa-2610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-appliance-ifa-3610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-appliance-ivd-1000
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-NEXCOM
+  repo: src-nexcom-templates
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: meta-branding-orange
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance-software-maritime-connect
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance-software-maritime-connect-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance-virtual-maritime-connect
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance-virtual-maritime-connect-export-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-appliance-virtual-maritime-connect-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-ORANGE
+  repo: src-orange-templates
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: meta-branding-panda
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-e250
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-e500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-integra-esb
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-integra-esoho
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-performa-e9100
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-performa-e9100lite
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-performa-e9500
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-performa-e9500lite
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-performa-esb
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-software-eseries
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-software-eseries-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-virtual-eseries
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-appliance-virtual-eseries-x64
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-artwork
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: B-PANDA
+  repo: src-panda-gatedefender-templates
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: DOC
+  repo: doc-development
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: DOC
+  repo: doc-product
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector-modbus
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector-mqtt
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector-nrpe
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector-opcua
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-collector-s7
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-mosquitto
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-efw-mqtt
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANALYTICS
+  repo: src-endian-analytics
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTISPAM
+  repo: meta-enterprise-endian-antispam
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTISPAM
+  repo: src-efw-commtouch-mailsecurity
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTIVIRUS
+  repo: meta-enterprise-endian-antivirus
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTIVIRUS
+  repo: src-efw-avengine
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTIVIRUS
+  repo: src-efw-bitdefender
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-ANTIVIRUS
+  repo: src-efw-panda
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-COMMERCIAL
+  repo: meta-enterprise-endian-commercial-3rd-party
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-COMMERCIAL
+  repo: src-c-icap-modules-bitdefender
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-COMMERCIAL
+  repo: src-c-icap-modules-commtouch
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-COMMERCIAL
+  repo: src-c-icap-modules-panda
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-DEMO
+  repo: meta-enterprise-endian-demo
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-DEMO
+  repo: src-efw-demo
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-HOTSPOT
+  repo: meta-enterprise-endian-hotspot
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-HOTSPOT
+  repo: src-efw-hotspot
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-HOTSPOT
+  repo: src-efw-radiusd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-IO
+  repo: meta-enterprise-endian-io
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-IO
+  repo: src-efw-dio
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-IO
+  repo: src-efw-dio-fws2275
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-IO
+  repo: src-efw-dio-ifa2610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-IO
+  repo: src-efw-dio-ifa3610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-MC
+  repo: meta-enterprise-endian-mc
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-MC
+  repo: src-efw-emc
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-MC
+  repo: src-efw-tunneld
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: base
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: meta-endian
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: meta-endian-upstream
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: meta-erlang
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: meta-espressobin
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: meta-golang
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: meta-openembedded
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: meta-sunxi
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: meta-virtualization
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: poky
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EOS
+  repo: src-common
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-common3
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-backup
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-base
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-ca
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-clamav
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-collectd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-configroot
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-console
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dansguardian
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dashboard
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dbus
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dhcpd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dialin-client
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-dnsmasq
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-eal-backend
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-eal-frontend
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-endian
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-endianar
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-fail2ban
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-firewall
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-frox
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-guilib
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-havp
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-httpd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-icap
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-ifup
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-interfaceeditor
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-ipsec
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-livelogs
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-locales
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-mailgraph
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-modemmanager
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-mongodb
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-monit
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-netwizard
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-network
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-network-awareness
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-networkd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-notifications
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-ntop
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-ntp
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-openssh
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-popscan
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-proxy
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-qos
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-radius
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-redis
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-restartscripts
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-samba
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-sarg
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-shell
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-smtpscan
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-snmp
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-snort
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-spamassassin
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-stats
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-syslog
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-urlfilter
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-utils
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-vpn
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-vpnclient
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-efw-webfilter-config
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-emi
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-emi-debug
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-emi-demo
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-emi-devel
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-endian-artwork-core
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-endian-core
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-eos-core
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-hid-server
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-initscripts
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-jobsengine
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-jquery-libs
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-leaflet-fullscreen-plugin
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-leaflet-libs
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-leaflet-search-plugin
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-libsmooth
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-misc-progs
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-openvpn-auth
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-scripts
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-stslog
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-uplinksdaemon
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-vuejs-libs
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-xe-guest-utils-binary
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EOS
+  repo: src-xt-ndpi
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: meta-enterprise-endian-serial
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: src-efw-serial-fws2275
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: src-efw-serial-ifa1610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: src-efw-serial-ifa2610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: src-efw-serial-ifa3610
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SERIAL
+  repo: src-efw-serial-server
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: meta-enterprise-endian-switchboard
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-efw-4iconnect
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-efw-ejabberd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-efw-guacamole
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-efw-switchboard
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-efw-switchboard-exor
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-eos-app-switchboard
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-guacamole-auth-provider
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SWITCHBOARD
+  repo: src-guacamole-client-golang
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: meta-enterprise-endian-system
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-application-firewall
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-customscripts
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-docker
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-eal-backend-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-eal-pam
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-ha
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-lcd
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-locales-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-mail-quarantine
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-nodered
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-ntop-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-postgresql
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-provisioning
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-qostagging
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-redirect
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-reporting
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-reverse-proxy
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-smsnotifications
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-storage
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-telegraf
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-wireless
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-efw-wireless-client
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-ehi-eal-backend
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-emi-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-lcm
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-SYSTEM
+  repo: src-nfq-ndpi-firewall
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: manifest
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: meta-bsp-endian
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: meta-bsp-exor
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: meta-bsp-nexcom
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: meta-enterprise-endian
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: meta-java
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: ENTERPRISE
+  repo: meta-ti
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: ENTERPRISE
+  repo: src-efw-access
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-efw-backup-duplicity
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-efw-endian-client
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-efw-license
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-efw-support
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-endian-client
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-installer
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-installer-activation
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: ENTERPRISE
+  repo: src-manifest
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-VPN
+  repo: meta-enterprise-endian-vpn
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-VPN
+  repo: src-efw-easyvpn
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-VPN
+  repo: src-efw-l2tp
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-VPN
+  repo: src-efw-vpn-authentication-enterprise
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-VPN
+  repo: src-efw-xauth
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-WEBFILTER
+  repo: meta-enterprise-endian-webfilter
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: E-WEBFILTER
+  repo: src-efw-commtouch-webfilter
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: E-WEBFILTER
+  repo: src-efw-safesearch
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: EXT
+  repo: tdewolff-buffer
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EXT
+  repo: tdewolff-strconv
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: EXT
+  repo: ti-linux-kernel
+  autounapprove: false
+  check_issue: false
+  check_committer: false
+
+- project: IE
+  repo: src-installer-yocto
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: IE
+  repo: src-installer-yocto-releases
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: SAN
+  repo: meta-pippo
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: SAN
+  repo: renametest
+  autounapprove: false
+  check_issue: true
+  check_committer: true
+
+- project: SAN
+  repo: src-pippo
+  autounapprove: true
+  check_issue: true
+  check_committer: true
+
+- project: SAN
+  repo: test2
+  autounapprove: false
+  check_issue: true
+  check_committer: true
